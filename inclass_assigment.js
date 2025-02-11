@@ -27,4 +27,11 @@ function applyDiscount(product, discountRate) {
 
 console.log(applyDiscount(products, .1));
 
+function sum3 (x, y, z) {
+  return x+y+z
+}
+
+let numbers = [1,2,3}
+console.log(sum3(...numbers));
+
 
