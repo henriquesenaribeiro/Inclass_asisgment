@@ -44,3 +44,19 @@ function calculateTotalReveneu(sales) {
 }
 
 console.log(calculateTotalRevenue(sales));
+
+//Task 4: Object Manipulation
+
+let employee = {
+  name: "Fabi",
+  salary: 80000,
+  position: "Honors Marketing Rep"
+};
+
+function updateSalary(employee, percentageIncrease) {
+  employee.salary = employee.salary * percentageIncrease;
+}
+
+updateSalary(employee, .1)
+
+console.log(employee)
