@@ -34,4 +34,13 @@ function sum3 (x, y, z) {
 let numbers = [1,2,3}
 console.log(sum3(...numbers));
 
+//Task 3: Array Methods - Reduce
 
+let sales =[250,400,300,500];
+function calculateTotalReveneu(sales) {
+
+  return sales.reduce((total, item) => total +sale, 0) // 0 is starting number
+
+}
+
+console.log(calculateTotalRevenue(sales));
